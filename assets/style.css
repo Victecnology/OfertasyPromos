@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #eafaf1;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+.nav-item {
+    color: #00ad6a;
+    margin: 2px;
+    border: 1px solid;
+    border-color: rgba(240, 248, 255, 0);
+    transition: 0.4s;
+    padding: 7px 9px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.nav-item:hover{
+    border: 1px solid;
+    border-color: rgb(13, 197, 13);
+}
+
+header a span{
+    color: rgb(15, 204, 15);
+    font-size: xx-large;
+}
+
+
+
+.text-ini{
+    display: grid;
+    text-align: center;
+}
+
+.text-ini h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-ini p{
+    font-size: medium;
+}
+
+
+
+
+
+.promos{
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.promo1{
+    height: 70%;
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+.promo1caja{
+    margin-right: 40px;
+}
+
+.promo1titulo{
+    color: #00ad6a;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.promo1caja ul{
+    margin-top: 15px;
+    text-align: start;
+    font-size: 12px;
+    line-height: 20px;
+    list-style-position: outside;
+}
+
+.promo1caja p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.promo2{
+    background-color: #fcfcfc;
+    height: 90%;
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid;
+    border-color: rgb(27, 209, 27);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+
+.promo2encabezado{
+    display: flex;
+    background-color: #00ad6a;
+    color: #fcfcfc;
+    height: 3.5%;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+.promo2cuerpo{
+    display: flexbox;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+}
+
+.promo2cuerpo h1{
+    color: #00ad6a;
+    font-weight: 800;
+}
+
+.promo2cuerpo h4{
+    color: gray;
+    font-weight: 500;
+}
+
+.promo2cuerpo button{
+    background-color: #1fe374;
+    color: rgb(65, 65, 65);
+    border: 0px solid;
+    height: 35px;
+    width: 120px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.promo2subtitulo{
+    color: #4d4d4d;
+    font-size: 9px;
+    font-weight: 800;
+}
+
+.promo2 li{
+    text-align: start;
+    font-size: 12px;
+    line-height: 15px;
+    white-space: pre-wrap;
+    list-style: none;
+    list-style-image: url("../images/check.png");
+    list-style-position: outside;
+}
+
+.promo3{
+    background-color: #fcfcfc;
+    height: 80%;
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 0.5px solid;
+    border-color: rgba(182, 182, 182, 0.664);
+    overflow: hidden;
+}
+
+.promo3encabezado{
+    display: flex;
+    background-color: #d6dae5;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.promo3encabezado p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.promo3cuerpo{
+    display: flexbox;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+.promo3cuerpo h2{
+    color: #00ad6a;
+    font-weight: 100;
+}
+
+.promo3cuerpo h4{
+    color: gray;
+    font-weight: 500;
+}
+
+.promo3cuerpo button{
+    background-color: #1fe374;
+    color: rgb(65, 65, 65);
+    border: 0px solid;
+    height: 35px;
+    width: 120px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.promo3subtitulo{
+    color: #4d4d4d;
+    font-size: 9px;
+    font-weight: 800;
+}
+
+.promo3 li{
+    text-align: start;
+    font-size: 12px;
+    line-height: 15px;
+    white-space: pre-wrap;
+    list-style: none;
+    list-style-image: url("../images/check.png");
+    list-style-position: outside;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
